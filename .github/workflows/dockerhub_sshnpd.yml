@@ -3,9 +3,9 @@ name: dockerhub_sshnpd
 on:
   workflow_dispatch:
   push:
-    tags:
-      - 'v*.*.*'
-
+    branches:
+      - master
+      
 permissions:  # added using https://github.com/step-security/secure-workflows
   contents: read
 
