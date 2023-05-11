@@ -47,7 +47,7 @@ jobs:
           path: tarball
 
   other_build:
-    runs-on: actuated-aarch64
+    runs-on: actuated
     steps:
       - uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
       - uses: docker/setup-qemu-action@e81a89b1732b9c48d79cd809d8d81d79c4647a18 # v2.1.0
